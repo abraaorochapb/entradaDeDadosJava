@@ -19,6 +19,12 @@ public class Main {
         z = sc.nextDouble();
         System.out.println("Você digitou: " + z);
 
+        String s;
+        sc.nextLine();
+        System.out.print("Digite uma frase: ");
+        s = sc.nextLine();
+        System.out.println("Você digitou: " + s);
+
         sc.close();
     }
 
